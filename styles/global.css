@@ -1,0 +1,88 @@
+:root {
+  --bg-color: #09090b;
+  --surface-color: ##18181b;
+
+  --stroke-color: #27272a;
+
+  --text-primary: #f4f4f5;
+  --text-secondary: #a1a1aa;
+
+  --brand-color-primary: #f7b733;
+  --brand-color-secondary: #fc4a1a;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  --font-base: 400;
+  --font-medium: 500;
+  --font-bold: 800 --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+
+  -webkit-font-smoothing: antialased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-weight: var(--font-base);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  font-weight: var(--font-bold);
+
+  color: var(--text-primary);
+}
+
+h1 {
+  font-size: var(--text-2xl);
+}
+
+h2 {
+  font-size: var(--text-xl);
+}
+
+h3 {
+  font-size: var(--text-lg);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul[role='list'] {
+  list-style: none;
+}
+
+@media (width >= 80em) {
+  :root {
+    --text-lg: 2rem;
+    --text-xl: 3rem;
+    --text-2xl: 4rem;
+  }
+}
