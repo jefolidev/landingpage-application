@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #09090b;
+  --bg-primary: #09090b;
   --surface-color: ##18181b;
 
   --stroke-color: #27272a;
@@ -7,14 +7,16 @@
   --text-primary: #f4f4f5;
   --text-secondary: #a1a1aa;
 
-  --brand-color-primary: #f7b733;
-  --brand-color-secondary: #fc4a1a;
+  --brand-primary: #f7b733;
+  --brand-secondary: #fc4a1a;
 
   --font-sans: 'Inter', system-ui, sans-serif;
 
   --font-base: 400;
   --font-medium: 500;
-  --font-bold: 800 --text-sm: 0.875rem;
+  --font-bold: 800;
+
+  --text-sm: 0.875rem;
   --text-base: 1rem;
   --text-lg: 1.25rem;
   --text-xl: 1.5rem;
