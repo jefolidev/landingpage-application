@@ -48,3 +48,30 @@
 
   font-size: var(--text-lg);
 }
+
+.btn[aria-label] {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 1.5px;
+
+    border-radius: inherit;
+
+    background-color: var(--bg-primary);
+  }
+
+  &::after {
+    content: attr(aria-label);
+
+    background: var(--btn-bgColor);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+
+    position: relative;
+    z-index: 1;
+  }
+}
