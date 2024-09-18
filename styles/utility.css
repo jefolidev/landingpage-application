@@ -31,8 +31,15 @@
   align-items: center;
 }
 
+.items-end {
+  align-items: end;
+}
+
 .justify-center {
   justify-content: center;
+}
+.justify-end {
+  justify-content: end;
 }
 
 .gap-0\.5 {
@@ -67,6 +74,10 @@
 
 .py-xl {
   padding-block: var(--py-xl);
+}
+
+.text-center {
+  text-align: center;
 }
 
 @media (width >= 80em) {

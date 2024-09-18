@@ -1,0 +1,110 @@
+#pricing {
+  & p {
+    margin: 0;
+  }
+  & h3 {
+    font-size: var(--text-base);
+  }
+
+  #premium,
+  #free,
+  #family {
+    height: 28rem;
+  }
+
+  & header {
+    padding-inline: 0;
+  }
+  @media (width >=80em) {
+    .card-wrapper {
+      gap: 2rem;
+    }
+
+    #premium {
+      height: 35rem;
+    }
+
+    #free,
+    #family {
+      height: 30rem;
+    }
+
+    & h2 {
+      max-width: 50rem;
+      margin-inline: auto;
+    }
+
+    zin-pricing + p {
+      margin-left: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    & .container {
+      padding-top: 0.5rem;
+    }
+
+    & .card-sm {
+      height: 100%;
+    }
+    .feature {
+      align-items: center;
+      & p {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+#pricing > .container > header h2 {
+  margin-bottom: 2rem;
+}
+
+zin-pricing {
+  font: var(--font-bold) var(--text-xl) var(--font-sans);
+}
+
+#pricing button {
+  width: 100%;
+
+  &::before {
+    background-color: var(--surface-color);
+  }
+}
+#premium {
+  position: relative;
+  background-color: var(--surface-color);
+  padding: 2rem;
+}
+/* 
+#premium::after {
+  position: absolute;
+  content: url(/assets/ui/free-trial.svg);
+
+  top: 0;
+  left: 0;
+
+  border-radius: 5rem;
+} */
+
+.free-trial {
+  position: absolute;
+  width: 10rem;
+
+  top: 0;
+  left: 0;
+
+  border-top-left-radius: 1.2rem;
+}
+
+#premium::before {
+  content: '';
+  background: linear-gradient(
+    90deg,
+    var(--brand-secondary) 0%,
+    var(--brand-primary) 100%
+  );
+  position: absolute;
+  inset: -3px;
+  border-radius: 1.5rem;
+  z-index: -1;
+}
