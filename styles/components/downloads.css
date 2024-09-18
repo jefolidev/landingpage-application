@@ -1,0 +1,41 @@
+#downloads {
+  & header {
+    padding: 0;
+  }
+  & .card-sm {
+    position: relative;
+    padding-bottom: 15rem;
+
+    @media (width>= 80em) {
+      padding: 5rem 8.75rem;
+    }
+
+    & p {
+      @media (width>= 80em) {
+        max-width: 45rem;
+      }
+    }
+  }
+  & div + img {
+    position: absolute;
+
+    width: 14.875rem;
+    height: 20rem;
+
+    bottom: 0;
+    right: -50px;
+
+    @media (width>= 80em) {
+      width: 22rem;
+      height: 32rem;
+
+      right: 0px;
+    }
+  }
+}
+
+.stores-wrapper {
+  & .store-app {
+    width: 3.5rem;
+  }
+}

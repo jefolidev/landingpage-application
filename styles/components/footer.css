@@ -1,0 +1,9 @@
+footer {
+& p,a {
+    color: var(--text-secondary)
+}
+
+& strong {
+    color: var(--brand-primary);
+}
+}
