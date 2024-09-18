@@ -15,10 +15,29 @@
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
 .items-center {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
+.gap-0\.5 {
+  gap: 0.5rem;
+}
 .gap-1 {
   gap: 1rem;
 }
@@ -33,6 +52,9 @@
 
 .px-lg {
   padding-inline: var(--px-lg);
+}
+.px-xl {
+  padding-inline: var(--px-xl);
 }
 
 .py-base {
