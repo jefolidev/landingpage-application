@@ -29,7 +29,11 @@
     var(--brand-primary) 100%
   );
 
+  background-clip: initial;
+  -webkit-background-clip: initial;
+
   --btn-txtColor: var(--surface-color);
+  color: var(--btn-txtColor);
 }
 
 .btn-sm {
@@ -75,4 +79,21 @@
     position: relative;
     z-index: 1;
   }
+}
+
+@media (width >= 80em) {
+  
+
+.btn-sm {
+  padding: 0.75rem 1.5rem;
+
+  font-size: var(--text-base);
+}
+
+.btn-md {
+  padding: 1rem 2rem;
+
+  font-size: var(--text-lg);
+}
+
 }
