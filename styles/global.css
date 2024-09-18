@@ -1,6 +1,6 @@
 :root {
   --bg-primary: #09090b;
-  --surface-color: ##18181b;
+  --surface-color: #18181b;
 
   --stroke-color: #27272a;
 
@@ -76,6 +76,11 @@ h2 {
 
 h3 {
   font-size: var(--text-lg);
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 a {

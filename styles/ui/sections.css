@@ -1,0 +1,19 @@
+.section {
+  & header {
+    & strong {
+      display: block;
+
+      font: var(--font-medium) var(--text-sm) var(--font-sans);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--brand-primary);
+    }
+    & h2 {
+      margin-top: 0.5rem;
+    }
+  }
+  & p {
+    margin-top: 0.5rem;
+    color: var(--brancd-secondary);
+  }
+}
