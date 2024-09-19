@@ -1,6 +1,6 @@
-# Convite de Aniversário 🚀
+# Zingen | App de Karaoke 🎤
 
-Esta é uma página em que trabalhei principais conceitos de formulário, juntando-os e aplicando em um pequeno web service, que apenas de maneira visual, cria convites personalizados.
+Nesa landing page trabalhei com foco na responsividade de diferentes tamanhos de tela. Um estudo mais aprofundado sobre isso é totalmente necessário, visando uma UX melhor para quem está utilizando não só essa página mas como as outras.
 
 ## 📑 Índice
 
@@ -14,7 +14,7 @@ Esta é uma página em que trabalhei principais conceitos de formulário, juntan
 
 ### 🔎 Front-end
 
-- **HTML/CSS** - Gerenciamento de formulários
+- **HTML/CSS** - Design do site e responsividade
 
 <p align="center">
   <a href="https://skillicons.dev">
