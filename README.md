@@ -24,11 +24,20 @@ Nesa landing page trabalhei com foco na responsividade de diferentes tamanhos de
 
 ## 📷 UI
 
-<img src="./public/full-page.png">
+<div align="center">
+
+### Desktop
+
+<img src="./public/full-page-desktop.png">
+
+### Dispositivo mobile
+
+<img src="./public/full-page-phone.png">
+</div>
 
 ## ⚙️ Funcionalidades
 
-- Visualmente, possui funcionalidades de um formulário, tais como, radio, select, color etc; todas customizadas.
+- Simula uma landing page de um aplicativo chamado "Zingen". O site é reponsivo por inteiro e atende à telas de celulares.
 
 ## 🚀 Como Rodar o Projeto
 
@@ -40,7 +49,7 @@ Nesa landing page trabalhei com foco na responsividade de diferentes tamanhos de
 
 ```bash
 - Clone o repositório
-    git clone https://github.com/jefolidev/form-birthday.git
+    git clone https://github.com/jefolidev/landingpage-application
 
 - Abra a pasta em que você salvou, e execute o arquivo 'index.html'
 ```
