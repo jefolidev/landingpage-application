@@ -1,6 +1,6 @@
 @import url(global.css);
 @import url(utility.css);
 
-@import url(ui/_index.css);
+@import url(ui/index.css);
 
-@import url(components/_index.css);
+@import url(components/index.css);
