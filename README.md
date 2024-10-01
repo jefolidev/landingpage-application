@@ -49,7 +49,7 @@ Nesa landing page trabalhei com foco na responsividade de diferentes tamanhos de
 
 ```bash
 - Clone o repositório
-    git clone https://github.com/jefolidev/landingpage-application
+    git clone https://github.com/jefolidev/zingen
 
 - Abra a pasta em que você salvou, e execute o arquivo 'index.html'
 ```
